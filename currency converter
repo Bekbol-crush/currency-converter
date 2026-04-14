@@ -1,0 +1,11 @@
+def convert_usd_to_kgs(amount):
+    return amount * 89  # примерный курс
+
+def convert_kgs_to_usd(amount):
+    return amount / 89
+
+def convert_eur_to_kgs(amount):
+    return amount * 96
+
+def convert_kgs_to_eur(amount):
+    return amount / 96
