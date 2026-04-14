@@ -17,3 +17,14 @@ while True:
     print("3 - EUR → KGS")
     print("4 - KGS → EUR")
     print("5 - выход")
+    choice = input("Выбор: ")
+
+    if choice == "5":
+        print("Выход из программы")
+        break
+
+    if choice not in ["1", "2", "3", "4"]:
+        print("Неверный выбор")
+        continue
+
+    amount = float(input("Введите сумму: "))
