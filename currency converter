@@ -9,3 +9,11 @@ def convert_eur_to_kgs(amount):
 
 def convert_kgs_to_eur(amount):
     return amount / 96
+
+while True:
+    print("\nКонвертер валют:")
+    print("1 - USD → KGS")
+    print("2 - KGS → USD")
+    print("3 - EUR → KGS")
+    print("4 - KGS → EUR")
+    print("5 - выход")
