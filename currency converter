@@ -28,3 +28,14 @@ while True:
         continue
 
     amount = float(input("Введите сумму: "))
+    
+    if choice == "1":
+        result = convert_usd_to_kgs(amount)
+    elif choice == "2":
+        result = convert_kgs_to_usd(amount)
+    elif choice == "3":
+        result = convert_eur_to_kgs(amount)
+    else:
+        result = convert_kgs_to_eur(amount)
+
+    print("Результат:", result)
